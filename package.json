@@ -8,6 +8,7 @@
     "react-dom": "^16.5.2",
     "react-router-dom": "^6.2.2",
     "react-scripts": "2.0.3",
+    "uuid": "^8.3.2",
     "vconsole": "^3.12.1"
   },
   "scripts": {
