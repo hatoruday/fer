@@ -12,12 +12,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
    faGithub,
  } from "@fortawesome/free-brands-svg-icons";
 
-//<FontAwesomeIcon
-//         icon={faTwitter}
- //        color={"#04AAFF"}
-  //       size="3x"
-  //       style={{ marginBottom: 30 }}
-  //     />
+
+// <h1 style = {{fontSize:30}}>제 3방공유도탄여단</h1>
+
 const Auth = () => {
 	const onSocialClick = async (event) => {
      const {
@@ -33,12 +30,12 @@ const Auth = () => {
    };
    return (
      <div className = "authContainer">
-	 <h1 style = {{fontSize:30}}>제 3방공유도탄여단</h1>
-		<img src ="https://firebasestorage.googleapis.com/v0/b/fere-5c82d.appspot.com/o/uliKkYmpczfiR1xhKXNvTkWrd5m2%2F3fa93e8e-0d9e-4c1e-91f9-116b55e6bc31?alt=media&token=d7cc58d5-e14b-496d-b808-bd56491505f9"		
-		   width = "270"
-		   height = "340"
-		   style = {{marginBottom: 30}}
-	 />
+		<FontAwesomeIcon
+        	icon={faTwitter}
+			color={"#04AAFF"}
+        	size="3x"
+        	style={{ marginBottom: 30 }}
+        />
 	   <AuthForm />
        <div className = "authBtns">
 		 <button onClick={onSocialClick} name="google" className = "authBtn">
